@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>tarea2</title>
+
+	<style>
+
+		body{
+	background: black;
+}
+		.papa{
+			background: red;
+			position: absolute;
+			top: 100px;
+			left: 100px;
+			width: 200px;
+			height: 100px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+		}
+		.hijo{
+			background: red;
+			position: absolute;
+			left: 400px;
+			top:20px;
+			width: 700px;
+			height: 400px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+			display: none;
+		}
+
+		.papa:active .hijo {
+			background: blue;
+			display: block;
+			color: blue;
+		}
+
+		.papa2{
+			background: red;
+			position: absolute;
+			top: 250px;
+			left: 100px;
+			width: 200px;
+			height: 100px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+		}
+		.hijo2{
+			background: red;
+			position: absolute;
+			left: 400px;
+			top:-80px;
+			width: 700px;
+			height: 400px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+			display: none;
+		}
+
+		.papa2:active .hijo2 {
+			background: blue;
+			display: block;
+			color: blue;
+		}
+
+		.papa3{
+			background: red;
+			position: absolute;
+			top: 390px;
+			left: 100px;
+			width: 200px;
+			height: 100px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+		}
+		.hijo3{
+			background: red;
+			position: absolute;
+			left: 400px;
+			top:-200px;
+			width: 700px;
+			height: 400px;
+			box-sizing: border-box;
+			margin-left:5px;
+			margin-bottom: 5px;
+			display: none;
+		}
+
+		.papa3:hover .hijo3 {
+			background: blue;
+			display: block;
+			color: blue;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="papa"><center><h2>Condicionales</h2></center>
+		<div class="hijo">
+			<div style="position: absolute;height: 100px; width: 700px;"><img src="condi.png"></div>
+       	</div>
+	</div>
+
+<div class="papa2"><center><h2>sintaxis</h2></center>
+		<div class="hijo2">
+			<img src="sintax.png">
+
+		</div>
+	</div>
+
+<div class="papa3"><center><h2>funcion</h2></center>
+		<div class="hijo3">
+			<img src="coco.png">
+		</div>
+	</div>
+</body>
+</html>
+
